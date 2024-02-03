@@ -1,0 +1,30 @@
+.menu
+  position: absolute
+  left: 50%
+  top: 0
+  transform: translate(-50%, -100%)
+  transition: 0.3s
+  padding: 50px 20px
+  border-radius: 0 0 50px 50px
+  //backdrop-filter: blur(4px)
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25)
+  background: #5a5555
+  width: 100%
+  max-width: 305px
+  opacity: 0
+  visibility: hidden
+  &__close
+    display: block
+    margin: 0 auto 40px
+  &__nav
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 50px
+  &__link
+    font-weight: 700
+    font-size: 32px
+    line-height: 136%
+    text-transform: uppercase
+    color: #fff
+    text-decoration: none
